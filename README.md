@@ -2,7 +2,7 @@
 
 Markus Prokuda
 
-1. "Reset" nupp taastab toob tagasi formaadi, mis oli enne muudatusi.
+1. "Reset" nupp taastab formaadi, mis oli enne muudatusi.
 2. "Left" viib aja teksti vasakule.
 3. "+" Teeb aja teksti suuremaks.
 4. "-" Teeb aja teksti väiksemaks. 
