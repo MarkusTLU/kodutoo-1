@@ -1,5 +1,20 @@
 # kodutoo-1
 
+Markus Prokuda
+
+1. "Reset" nupp taastab toob tagasi formaadi, mis oli enne muudatusi.
+2. "Left" viib aja teksti vasakule.
+3. "+" Teeb aja teksti suuremaks.
+4. "-" Teeb aja teksti väiksemaks. 
+5. "Right" viib aja teksti paremale.
+6. "Font color" muudab aja teksti värvi.
+7. "Font Style" muudab aja teksti fonti.
+8. "12h / 24h" muudab kella 24h formaadist 12h formaadile. 
+9. 06.00 - hommik, 12.00 - lõuna, 18.00 - õhtu, 00.00 - öö. Olenevalt kellast muudab tausta ära.
+10. 06.00-17.59 muutub "Markus Prokuda | Minu GitHub" teksti värv mustaks, sest vastasel juhul on nendel kellaegadel teksti halb näha.
+
+![Markus Prokuda kell](screenshot.png)
+
 ## Tähtaeg 01.04.2026 23:59
 
 Max 20 punkti.

@@ -1,29 +1,110 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     background-color: black;
     font-size: 30px;
-    color:white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-#container{
+#container {
     display: flex;
     flex-direction: column;
-    height: 90vh;
-    align-items: center;
+    height: 100%;
+    width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
-#clockContainer, #dateContainer{
+#clockContainer,
+#dateContainer {
     display: flex;
     justify-content: center;
     font-size: 25px;
 }
 
-button{
-    font-size: 1.1em;
-    border-radius: 20px;
+#bigger,
+#smaller {
+    border-radius: 40px;
     padding: 0px;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
+}
+
+#left,
+#right {
+    border-radius: 40px;
+    padding: 0px;
+    height: 30px;
+    width: 60px;
+}
+
+#fontColor {
+    border-radius: 40px;
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+}
+
+#resetButton {
+    border-radius: 40px;
+    padding: 0px;
+    height: 30px;
+    width: 60px;
+}
+
+#fontFamily {
+    border-radius: 40px;
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+}
+
+#footer {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+#timeFormat {
+    border-radius: 40px;
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+}
+
+#footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    transition: background 0.8s ease;
+}
+
+body.night {
+    background: linear-gradient(to bottom, #020111, #191621, #000000);
+}
+
+body.morning {
+    background: linear-gradient(to bottom, #87ceeb, #ffd580, #fff3b0);
+}
+
+body.day {
+    background: linear-gradient(to bottom, #4facfe, #b7eaff, #eafcff);
+}
+
+body.evening {
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b, #2c3e50);
 }
